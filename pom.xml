@@ -22,7 +22,7 @@
 	</scm>
     <properties>
         <bintray.package>config</bintray.package>
-		<spring-cloud-commons.version>2.0.0.BUILD-SNAPSHOT</spring-cloud-commons.version>
+		<spring-cloud-commons.version>2.0.0.M5</spring-cloud-commons.version>
     </properties>
 	<modules>
 		<module>spring-cloud-config-dependencies</module>
@@ -59,6 +59,13 @@
 				<groupId>com.amazonaws</groupId>
 				<artifactId>aws-java-sdk-core</artifactId>
 				<version>1.11.52</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-bus-parent</artifactId>
+				<version>2.0.0.M4</version>
+				<type>pom</type>
+				<scope>import</scope>
 			</dependency>
 		</dependencies>
     </dependencyManagement>
